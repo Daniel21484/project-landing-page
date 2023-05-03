@@ -85,6 +85,11 @@ body {
     font-weight: bold;
   }
 
+  .hero-text button:hover {
+    background-color: #FFFFFF;
+    color: #3882F6;
+  }
+
 /* Apply styles to the information section */
 .information {
     background-color: #FFFFFF;
