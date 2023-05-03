@@ -1,0 +1,248 @@
+/* Reset default margin and padding for body */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the header */
+  header {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Apply styles to the logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+  }
+  
+  /* Apply styles to the navigation links */
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+
+/* Apply styles to the hero section */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #1F2937;
+  }
+  
+  .hero-text {
+    width: 50%;
+    margin: 0;
+  }
+
+  .hero-image {
+    margin: 0;
+  }
+  
+  .hero-text h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text button {
+    padding: 10px 20px;
+    background-color: #3882F6; /* add background color */
+    color: #F9FAF8; /* add text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+/* Apply styles to the information section */
+.information {
+    background-color: #FFFFFF;
+    padding: 50px 100px;
+  }
+  
+  /* Apply styles to the information header */
+  .information-header {
+    text-align: center;
+  }
+  
+  .information-header h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 40px;
+  }
+  
+  /* Apply styles to the card container */
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    flex-wrap: wrap;
+  }
+  
+ /* Apply styles to the cards */
+.card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1; /* add flex property */
+    margin-right: 20px; /* add margin-right */
+    margin-bottom: 20px; /* add margin-bottom */
+    max-width: calc(25% - 20px); /* add max-width */
+    flex-basis: 0;
+  }
+
+  .card:last-child {
+    margin-right: 0; /* remove margin-right from last child */
+  }
+  
+  .card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    min-width: 0;
+  }
+  
+  .card p {
+    font-size: 18px;
+    color: #6B7280;
+  }
+
+/* Apply styles to the quote section */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 50px 100px;
+  }
+  
+  /* Apply styles to the quote container */
+  .quote-container {
+    text-align: center;
+  }
+  
+  .quote-container .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  /* Apply styles to the Call to Action section */
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 10px; /* add border radius */
+  }
+  
+  /* Apply styles to the Call to Action text */
+  .cta-text {
+    width: 50%;
+  }
+  
+  .cta-text h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .cta-text p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  /* Apply styles to the Call to Action button */
+  .cta-button {
+    width: 25%;
+    text-align: right;
+  }
+  
+  .cta-button button {
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .cta-button button:hover {
+    background-color: #FFFFFF;
+    color: #3882F6;
+  }
+
+/* Apply styles to the Call to Action container */
+.cta-container {
+    background-color: #FFFFFF;
+    padding: 50px 0;
+    display: flex; /* add display flex */
+    justify-content: center; /* center the content horizontally */
+    width: 100%;
+    flex-grow: 1;
+  }
+  
+  * {
+    box-sizing: border-box;
+    
+  }
+
+  /* Apply styles to the footer */
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+  }
+  
+  /* Apply styles to the container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .container p {
+    margin: 0;
+  }
+  
+  
+
